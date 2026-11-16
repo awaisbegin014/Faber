@@ -29,9 +29,9 @@ export function Hero() {
 
       <div className="relative z-10 max-w-7xl mx-auto px-8 sm:px-12 lg:px-16 w-full">
         <div className="flex justify-start">
-          <div className="max-w-2xl text-left pl-2 sm:pl-6 lg:pl-8">
+          <div className="max-w-3xl text-left">
             <h1
-              className="font-display text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold leading-[1.1] text-white animate-fade-up"
+              className="font-display text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold leading-[1.06] text-white animate-fade-up"
               style={{ animationDelay: '0.1s', opacity: 0 }}
             >
               Bay Area
@@ -40,7 +40,7 @@ export function Hero() {
             </h1>
 
             <p
-              className="mt-6 text-base sm:text-lg text-ink-200 leading-relaxed max-w-xl animate-fade-up font-normal"
+              className="mt-6 text-lg sm:text-xl text-ink-200 leading-relaxed max-w-2xl animate-fade-up font-normal"
               style={{ animationDelay: '0.25s', opacity: 0 }}
             >
               Documentary-style video for businesses, public agencies, and nonprofits. Authentic
