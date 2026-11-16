@@ -40,14 +40,14 @@ export function WhyFaber() {
 
       <div className="relative max-w-7xl mx-auto px-6">
         <div className="text-center max-w-3xl mx-auto mb-16 reveal">
-          <span className="text-xs font-mono tracking-[0.25em] uppercase text-brand-400">
+          <span className="text-sm font-mono tracking-[0.25em] uppercase text-brand-400">
             Why Faber
           </span>
           <h2 className="mt-4 font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-white">
             What sets us
             <span className="text-gradient-brand"> apart</span>
           </h2>
-          <p className="mt-6 text-lg text-ink-300">
+          <p className="mt-6 text-xl text-ink-300">
             We're not a production factory. Every project gets the full weight of our craft, care,
             and creative energy.
           </p>
@@ -68,8 +68,8 @@ export function WhyFaber() {
                   <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-brand-500/20 to-brand-700/10 flex items-center justify-center mb-5 transition-all duration-300 group-hover:from-brand-500 group-hover:to-brand-700 group-hover:scale-110">
                     <Icon className="w-6 h-6 text-brand-400 group-hover:text-white transition-colors duration-300" />
                   </div>
-                  <h3 className="font-display text-xl font-bold text-white mb-3">{point.title}</h3>
-                  <p className="text-ink-300 text-sm leading-relaxed">{point.desc}</p>
+                  <h3 className="font-display text-2xl font-bold text-white mb-3">{point.title}</h3>
+                  <p className="text-ink-300 text-base leading-relaxed">{point.desc}</p>
                 </div>
               </div>
             );

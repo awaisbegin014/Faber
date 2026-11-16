@@ -37,7 +37,7 @@ export function Contact() {
       <div className="relative max-w-7xl mx-auto px-6">
         <div className="grid lg:grid-cols-2 gap-16">
           <div className="reveal-left">
-            <span className="text-xs font-mono tracking-[0.25em] uppercase text-brand-400">
+            <span className="text-sm font-mono tracking-[0.25em] uppercase text-brand-400">
               Get In Touch
             </span>
             <h2 className="mt-4 font-display text-4xl sm:text-5xl font-bold text-white leading-tight">
@@ -45,7 +45,7 @@ export function Contact() {
               <br />
               <span className="text-gradient-brand">story together</span>
             </h2>
-            <p className="mt-6 text-lg text-ink-300 leading-relaxed">
+            <p className="mt-6 text-xl text-ink-300 leading-relaxed">
               Tell us about your project, your goals, and your timeline. We'll get back to you
               within 24 hours to schedule a consultation.
             </p>
@@ -66,7 +66,7 @@ export function Contact() {
                       <div className="text-xs text-ink-400 uppercase tracking-wider">
                         {item.label}
                       </div>
-                      <div className="text-white font-semibold">{item.value}</div>
+                      <div className="text-white font-semibold text-lg">{item.value}</div>
                     </div>
                   </a>
                 );

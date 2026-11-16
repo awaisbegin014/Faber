@@ -53,7 +53,7 @@ export function Header() {
               <a
                 key={link.href}
                 href={link.href}
-                className="text-sm font-medium text-ink-200 hover:text-white transition-colors duration-200 relative group"
+                className="text-base font-medium text-ink-200 hover:text-white transition-colors duration-200 relative group"
               >
                 {link.label}
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-brand-500 transition-all duration-300 group-hover:w-full" />
@@ -61,17 +61,17 @@ export function Header() {
             ))}
           </nav>
 
-          <div className="hidden lg:flex items-center gap-4">
+          <div className="hidden lg:flex items-center gap-5">
             <a
               href="tel:5107615118"
-              className="flex items-center gap-2 text-sm text-ink-200 hover:text-brand-400 transition-colors"
+              className="flex items-center gap-2 text-base text-ink-200 hover:text-brand-400 transition-colors"
             >
               <Phone className="w-4 h-4" />
               510-761-5118
             </a>
             <a
               href="#contact"
-              className="px-5 py-2.5 bg-brand-500 hover:bg-brand-600 text-white text-sm font-semibold rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-brand-500/30 hover:-translate-y-0.5"
+              className="px-5 py-2.5 bg-brand-500 hover:bg-brand-600 text-white text-base font-semibold rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-brand-500/30 hover:-translate-y-0.5"
             >
               Start a Project
             </a>

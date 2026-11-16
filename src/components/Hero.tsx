@@ -32,13 +32,13 @@ export function Hero() {
           <div className="max-w-2xl text-left">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass mb-6 animate-fade-down">
               <Sparkles className="w-4 h-4 text-brand-400" />
-              <span className="text-sm font-medium text-ink-200">
+              <span className="text-base font-medium text-ink-200">
                 Inspiring Your Audience to Action
               </span>
             </div>
 
             <h1
-              className="font-display text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold leading-[1.05] text-white animate-fade-up"
+              className="font-display text-5xl sm:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl font-bold leading-[1.05] text-white animate-fade-up"
               style={{ animationDelay: '0.1s', opacity: 0 }}
             >
               Bay Area
@@ -47,7 +47,7 @@ export function Hero() {
             </h1>
 
             <p
-              className="mt-6 text-lg sm:text-xl text-ink-200 leading-relaxed max-w-xl animate-fade-up"
+              className="mt-6 text-xl sm:text-2xl text-ink-200 leading-relaxed max-w-xl animate-fade-up font-normal"
               style={{ animationDelay: '0.25s', opacity: 0 }}
             >
               Documentary-style video for businesses, public agencies, and nonprofits. Authentic
@@ -60,7 +60,7 @@ export function Hero() {
             >
               <a
                 href="#contact"
-                className="group inline-flex items-center gap-2 px-7 py-4 bg-brand-500 hover:bg-brand-600 text-white font-semibold rounded-xl transition-all duration-300 hover:shadow-xl hover:shadow-brand-500/40 hover:-translate-y-1"
+                className="group inline-flex items-center gap-2 px-8 py-4 bg-brand-500 hover:bg-brand-600 text-white text-lg font-semibold rounded-xl transition-all duration-300 hover:shadow-xl hover:shadow-brand-500/40 hover:-translate-y-1"
               >
                 Start Your Project
                 <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
@@ -68,7 +68,7 @@ export function Hero() {
 
               <a
                 href="#portfolio"
-                className="group inline-flex items-center gap-2 px-7 py-4 glass hover:bg-white/10 text-white font-semibold rounded-xl transition-all duration-300"
+                className="group inline-flex items-center gap-2 px-8 py-4 glass hover:bg-white/10 text-white text-lg font-semibold rounded-xl transition-all duration-300"
               >
                 <Play className="w-5 h-5 text-brand-400 group-hover:scale-110 transition-transform" />
                 Watch Our Work
@@ -81,11 +81,11 @@ export function Hero() {
             >
               <div className="flex items-center gap-2">
                 <Award className="w-5 h-5 text-gold-400" />
-                <span className="text-sm text-ink-300">Award-Winning Storytelling</span>
+                <span className="text-base text-ink-300">Award-Winning Storytelling</span>
               </div>
               <div className="flex items-center gap-2">
                 <Film className="w-5 h-5 text-brand-400" />
-                <span className="text-sm text-ink-300">200+ Projects Delivered</span>
+                <span className="text-base text-ink-300">200+ Projects Delivered</span>
               </div>
             </div>
           </div>

@@ -56,11 +56,11 @@ function StatCard({ stat, start, index }: { stat: StatItem; start: boolean; inde
       <div className="inline-flex w-14 h-14 rounded-xl bg-brand-500/10 items-center justify-center mb-4 transition-all duration-300 group-hover:bg-brand-500/20 group-hover:scale-110">
         <Icon className="w-7 h-7 text-brand-400" />
       </div>
-      <div className="font-display text-4xl lg:text-5xl font-bold text-white">
+      <div className="font-display text-5xl lg:text-6xl font-bold text-white">
         {count}
         <span className="text-gradient-brand">{stat.suffix}</span>
       </div>
-      <div className="mt-2 text-sm text-ink-300">{stat.label}</div>
+      <div className="mt-2 text-base font-medium text-ink-300">{stat.label}</div>
     </div>
   );
 }

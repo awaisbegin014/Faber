@@ -53,23 +53,23 @@ export function About() {
           </div>
 
           <div className="reveal-right">
-            <span className="text-xs font-mono tracking-[0.25em] uppercase text-brand-400">
+            <span className="text-sm font-mono tracking-[0.25em] uppercase text-brand-400">
               Our Story
             </span>
-            <h2 className="mt-4 font-display text-4xl sm:text-5xl font-bold text-white leading-tight">
+            <h2 className="mt-4 font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight">
               Rooted in Oakland.
               <br />
               <span className="text-gradient-brand">Built for story.</span>
             </h2>
 
-            <p className="mt-6 text-lg text-ink-300 leading-relaxed">
+            <p className="mt-6 text-xl text-ink-300 leading-relaxed">
               Faber Productions is an Oakland-based video production company rooted in
               documentary-style storytelling. Founded by Chris Faber — a writer, thinker, and
               storyteller with the soul of a poet and the eye of an artist — we believe
               authentic voices and real stories create the deepest emotional connection.
             </p>
 
-            <p className="mt-4 text-ink-400 leading-relaxed">
+            <p className="mt-4 text-lg text-ink-400 leading-relaxed">
               We help companies attract talent, public agencies engage communities, and
               nonprofits build support for their missions. From the first conversation to the
               final cut, we listen deeply, craft carefully, and deliver work that moves people.
@@ -77,12 +77,12 @@ export function About() {
 
             <blockquote className="mt-8 pl-6 border-l-2 border-brand-500">
               <Quote className="w-6 h-6 text-brand-500/40 mb-2" />
-              <p className="font-display italic text-lg text-ink-200 leading-relaxed">
+              <p className="font-display italic text-xl text-ink-200 leading-relaxed">
                 "What you get with Chris is not just a video editor, but a
                 writer-thinker-creator-storyteller extraordinaire, who will wrestle with your
                 project until it is perfect."
               </p>
-              <cite className="mt-2 block text-sm text-ink-400 not-italic">
+              <cite className="mt-2 block text-base text-ink-400 not-italic">
                 — Florencia Prada, Swissnex San Francisco
               </cite>
             </blockquote>
@@ -100,8 +100,8 @@ export function About() {
                       <Icon className="w-5 h-5 text-brand-400" />
                     </div>
                     <div>
-                      <h4 className="font-semibold text-white">{val.title}</h4>
-                      <p className="text-sm text-ink-400 mt-1">{val.desc}</p>
+                      <h4 className="font-semibold text-white text-lg">{val.title}</h4>
+                      <p className="text-base text-ink-400 mt-1">{val.desc}</p>
                     </div>
                   </div>
                 );

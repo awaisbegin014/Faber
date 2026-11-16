@@ -83,7 +83,7 @@ export function Testimonials() {
 
       <div className="relative max-w-5xl mx-auto px-6">
         <div className="text-center mb-12 reveal">
-          <span className="text-xs font-mono tracking-[0.25em] uppercase text-brand-400">
+          <span className="text-sm font-mono tracking-[0.25em] uppercase text-brand-400">
             Client Voices
           </span>
           <h2 className="mt-4 font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-white">
@@ -100,12 +100,12 @@ export function Testimonials() {
           </div>
 
           <blockquote key={currentIndex} className="text-center animate-fade-in">
-            <p className="font-display text-xl sm:text-2xl lg:text-3xl text-white leading-relaxed italic">
+            <p className="font-display text-2xl sm:text-3xl lg:text-4xl text-white leading-relaxed italic max-w-4xl mx-auto">
               "{active.quote}"
             </p>
             <div className="mt-8">
-              <div className="font-semibold text-white text-lg">{active.author}</div>
-              <div className="text-sm text-brand-400 mt-1">{active.org}</div>
+              <div className="font-semibold text-white text-xl">{active.author}</div>
+              <div className="text-base text-brand-400 mt-1">{active.org}</div>
             </div>
           </blockquote>
 

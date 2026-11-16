@@ -51,15 +51,15 @@ export function Services() {
 
       <div className="relative max-w-7xl mx-auto px-6">
         <div className="max-w-3xl mb-16 reveal">
-          <span className="text-xs font-mono tracking-[0.25em] uppercase text-brand-400">
+          <span className="text-sm font-mono tracking-[0.25em] uppercase text-brand-400">
             What We Do
           </span>
-          <h2 className="mt-4 font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-white leading-tight">
+          <h2 className="mt-4 font-display text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-white leading-tight">
             Video that moves
             <br />
             <span className="text-gradient-brand">people to action</span>
           </h2>
-          <p className="mt-6 text-lg text-ink-300 leading-relaxed">
+          <p className="mt-6 text-xl text-ink-300 leading-relaxed">
             We craft documentary-style videos rooted in authentic storytelling. Whether you're a
             business, public agency, or nonprofit, we help you connect with your audience on a
             human level.
@@ -88,15 +88,15 @@ export function Services() {
                 </div>
 
                 <div className="p-6">
-                  <h3 className="font-display text-2xl font-bold text-white mb-3">
+                  <h3 className="font-display text-2xl lg:text-3xl font-bold text-white mb-3">
                     {service.title}
                   </h3>
-                  <p className="text-ink-300 text-sm leading-relaxed mb-4">{service.desc}</p>
+                  <p className="text-ink-300 text-base leading-relaxed mb-4">{service.desc}</p>
                   <div className="flex flex-wrap gap-2 mb-5">
                     {service.tags.map((tag) => (
                       <span
                         key={tag}
-                        className="text-xs px-3 py-1 rounded-full bg-white/5 text-ink-300 border border-white/5"
+                        className="text-sm px-3.5 py-1 rounded-full bg-white/5 text-ink-300 border border-white/5"
                       >
                         {tag}
                       </span>
@@ -104,7 +104,7 @@ export function Services() {
                   </div>
                   <a
                     href={service.link}
-                    className="inline-flex items-center gap-2 text-sm font-semibold text-brand-400 hover:text-brand-300 transition-colors group/cta"
+                    className="inline-flex items-center gap-2 text-base font-semibold text-brand-400 hover:text-brand-300 transition-colors group/cta"
                   >
                     {service.cta}
                     <ArrowRight className="w-4 h-4 transition-transform group-hover/cta:translate-x-1" />

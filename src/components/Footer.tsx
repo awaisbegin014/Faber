@@ -49,7 +49,7 @@ export function Footer() {
                 </span>
               </div>
             </a>
-            <p className="text-ink-400 text-sm leading-relaxed max-w-sm">
+            <p className="text-ink-400 text-base leading-relaxed max-w-sm">
               Oakland-based video production company rooted in documentary-style storytelling.
               Authentic voices and real stories for businesses, public agencies, and nonprofits.
             </p>
@@ -72,7 +72,7 @@ export function Footer() {
 
           {Object.entries(FOOTER_LINKS).map(([category, links]) => (
             <div key={category}>
-              <h4 className="text-sm font-semibold text-white mb-4 uppercase tracking-wider">
+              <h4 className="text-base font-semibold text-white mb-4 uppercase tracking-wider">
                 {category}
               </h4>
               <ul className="space-y-3">
@@ -80,7 +80,7 @@ export function Footer() {
                   <li key={link.label}>
                     <a
                       href={link.href}
-                      className="text-sm text-ink-400 hover:text-brand-400 transition-colors duration-200"
+                      className="text-base text-ink-400 hover:text-brand-400 transition-colors duration-200"
                     >
                       {link.label}
                     </a>
@@ -92,7 +92,7 @@ export function Footer() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-white/5 flex flex-col sm:flex-row gap-4 justify-between items-center">
-          <div className="flex flex-wrap gap-6 text-sm text-ink-400">
+          <div className="flex flex-wrap gap-6 text-base text-ink-400">
             <a
               href="tel:5107615118"
               className="flex items-center gap-2 hover:text-brand-400 transition-colors"
@@ -119,7 +119,7 @@ export function Footer() {
           </a>
         </div>
 
-        <div className="mt-8 text-center text-xs text-ink-500">
+        <div className="mt-8 text-center text-sm text-ink-500">
           © {new Date().getFullYear()} Faber Productions. All rights reserved. Bay Area Video
           Production.
         </div>
