@@ -30,7 +30,7 @@ export function Header() {
             : 'bg-transparent py-5'
         }`}
       >
-        <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-8 sm:px-12 lg:px-16 flex items-center justify-between">
           <a href="#" className="flex items-center gap-2.5 group">
             <div className="relative">
               <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-brand-500 to-brand-700 flex items-center justify-center transition-transform duration-300 group-hover:rotate-12">
