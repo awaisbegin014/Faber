@@ -1,11 +1,11 @@
-import { Sparkles, ArrowRight, Play, Award, Film } from 'lucide-react';
+import { ArrowRight, Play, Award, Film } from 'lucide-react';
 
 const HERO_BG =
   'https://images.pexels.com/photos/38038519/pexels-photo-38038519.jpeg?auto=compress&cs=tinysrgb&w=1920';
 
 export function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center pt-24 pb-16 overflow-hidden">
       <div className="absolute inset-0 z-0">
         <img
           src={HERO_BG}
@@ -30,13 +30,6 @@ export function Hero() {
       <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
         <div className="flex justify-start">
           <div className="max-w-2xl text-left">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass mb-6 animate-fade-down">
-              <Sparkles className="w-4 h-4 text-brand-400" />
-              <span className="text-base font-medium text-ink-200">
-                Inspiring Your Audience to Action
-              </span>
-            </div>
-
             <h1
               className="font-display text-5xl sm:text-6xl lg:text-7xl xl:text-8xl 2xl:text-9xl font-bold leading-[1.05] text-white animate-fade-up"
               style={{ animationDelay: '0.1s', opacity: 0 }}
